@@ -1,0 +1,30 @@
+.posicion {
+  position: fixed;
+  min-width: 100% !important;
+}
+
+img {
+  display: block;
+  max-width: 125%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.zarp {
+  display: block;
+  max-width: 30% !important;
+  height: auto;
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: auto;
+  top: 0;
+  margin-left: 1rem;
+}
+
+.exdipa {
+  display: block;
+  max-width: 80% !important;
+  height: auto;
+}
