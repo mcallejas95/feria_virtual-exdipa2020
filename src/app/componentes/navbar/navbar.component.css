@@ -1,0 +1,18 @@
+.icon-user-navbar {
+    color: #fff !important;
+}
+@media (min-width: 992px) {
+    .icon-user-navbar {
+        font-size: 2rem !important;
+    }
+}
+@media (max-width: 991px) {
+    .icon-user-navbar {
+        margin-bottom: 10px !important;
+    }
+}
+
+.icon-sing-out-navbar {
+    font-size: 1rem !important;
+    color: #fff !important;
+}

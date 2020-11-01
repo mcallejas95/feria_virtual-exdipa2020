@@ -1,19 +1,43 @@
-#myVideo {
+/* #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
+  margin-bottom: 159px;
   min-width: 100%;
   min-height: 100%;
-}
+} */
 
 .content {
-  position: relative;
-  bottom: 0;
-  margin-top: 20rem;
+  /* margin-top: 1.4rem; */
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 45%;
-  padding: 1rem;
+  /* width: 750px;
+  margin-left: -15px;
+  padding: 15px; */
+}
+
+.font-subtitle {
+  font-size: 1.7rem;
+}
+
+.content-second {
+  margin-left: 130px !important;
+  padding: 1.5rem;
+}
+
+.content-btn {
+  padding-left: 1rem;
+  width: 495px !important;
+}
+
+img {
+  display: block;
+  max-width: 70%;
+  height: auto;
+}
+
+.bg-black-content {
+  margin-left: -160px !important;
 }
 
 #myBtn {
@@ -31,8 +55,93 @@
   color: black;
 }
 
-img {
-  display: block;
-  max-width: 80%;
-  height: auto;
+.list-items-landings label {
+  margin-top: -3.5px !important;
+}
+
+.list-items-landings {
+  font-size: 14px !important;
+}
+
+@media (min-width: 1430px) {
+  .content-btn {
+    padding-left: 1rem !important;
+    width: 500px !important;
+  }
+  .content-second {
+    margin-left: 178px !important;
+  }
+  .bg-black-content {
+    margin-left: -208px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .content-btn {
+    width: 430px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .content-second {
+    margin-left: 15vh !important;
+  }
+  .content-btn {
+    margin-left: -18px !important;
+    width: 495px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .content {
+    width:98.75vw !important;
+  }
+  .content-second {
+    margin-left: 0px !important;
+  }
+
+  .content-btn {
+    margin-left: -114px !important;
+  }
+
+  .bg-black-content {
+    margin-left: -143px !important;
+  }
+
+  img {
+    max-width: 70vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .bg-black-content {
+    margin-left: -130px !important;
+  }
+  .content-btn {
+    margin-left: -100px !important;
+  }
+}
+
+@media (max-width: 674px) {
+  .bg-black-content {
+    margin-left: -82px !important;
+  }
+  .content-btn {
+    margin-left: -53px !important;
+  }
+}
+
+@media (max-width: 582px) {
+  .bg-black-content {
+    margin-left: -36px !important;
+  }
+  .content-btn {
+    margin-left: -8px !important;
+  }
+}
+
+@media (max-width: 399px) {
+  .content-btn {
+    width: 100% !important;
+  }
 }

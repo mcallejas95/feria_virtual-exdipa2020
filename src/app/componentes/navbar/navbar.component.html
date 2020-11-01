@@ -1,24 +1,57 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark navbar-dark fixed-top">
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#"></a></mdb-navbar-brand>
+  <links>
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item text-center mr-lg-5 d-flex align-items-center">
+        <i class="fa fa-user-circle icon-user-navbar link m-auto" [mdbTooltip]="'Mis datos'" aria-hidden="true"></i>
+      </li>
+      <li class="nav-item text-center" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['inicio']">Inicio <span
+          class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item text-center" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['galeria']">Galeria</a>
+      </li>
+      <li class="nav-item text-center" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['nosotros']">Contacto</a>
+      </li>
+      <li class="nav-item text-center" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['admin']">Admin</a>
+      </li>
+      <li class="nav-item pt-2 text-center" routerLinkActive="active">
+        <i class="fa fa-sign-out icon-sing-out-navbar link" [mdbTooltip]="'Cerrar sesión'"></i>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
+<!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="#"><strong></strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse mt-5" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav m-auto">
-      <li class="nav-item active">
-        <a class="nav-link" (click)="changeColor()" [routerLink]="['inicio']">INICIO <span
+      <li class="nav-item mr-5 pt-1">
+        <i class="fa fa-user-circle icon-user-navbar link m-auto" [mdbTooltip]="'Mis datos'" aria-hidden="true"></i>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['inicio']">Inicio <span
           class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" (click)="changeColor()" [routerLink]="['nosotros']">NOSOTROS</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['galeria']">Galeria</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" (click)="changeColor()" [routerLink]="['instructivo']">INFORMACIÓN</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['contacto']">Contacto</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" (click)="changeColor()" [routerLink]="['galeria']">GALERIA</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="changeColor()" [routerLink]="['admin']">Admin</a>
+      </li>
+      <li class="nav-item pt-2" routerLinkActive="active">
+        <i class="fa fa-sign-out icon-sing-out-navbar link" [mdbTooltip]="'Cerrar sesión'"></i>
       </li>
     </ul>
   </div>
-</nav>
+</nav> -->
